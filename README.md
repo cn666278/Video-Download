@@ -1,15 +1,15 @@
 # Video-Download
 Video Download using Annie
 
-## 使用 annie 下载 B 站视频
+## 使用 Lux(Annie) 下载 B 站视频
 当我们浏览 B 站或其他视频站点的时候，遇到了好的视频，就想下载下来永久收藏，或者我们即将去没有网络的偏远山区，想提前把视频下载到笔记本电脑上，那么我们该如何下载呢？  
 
-恰好有这样一个工具，就是 annie，我们可以使用 annie 来下载，annie 是用 Go 语言构建的 CLI Tool（命令行工具），快速，简单的视频下载器，支持的平台很多，包括 MacOS、 Windows、 Linux 等，安装和使用是非常简单的，支持的网站也多，目前支持以下网站： 
+恰好有这样一个工具，就是 Lux(annie)，我们可以使用 annie 来下载，annie 是用 Go 语言构建的 CLI Tool（命令行工具），快速，简单的视频下载器，支持的平台很多，包括 MacOS、 Windows、 Linux 等，安装和使用是非常简单的，支持的网站也多，目前支持以下网站： 
 <img src="https://github.com/cn666278/Video-Download/blob/main/website1.png" width="80%">  
 <img src="https://github.com/cn666278/Video-Download/blob/main/website2.png" width="80%">  
 接下来让我们先从 annie 开始吧 💪  
-[Annie下载](https://blog.csdn.net/qq_41780295/article/details/119795152)  
-annie 只是负责下载视频，而且是把一个完整的视频分成很多小视频下载，下载后的视频，我们还需要利用 FFmpeg 进行合并，接下来我们认识一下 FFmpeg。  
+[Lux(Annie)下载](https://blog.csdn.net/qq_41780295/article/details/119795152)  
+Lux 只是负责下载视频，而且是把一个完整的视频分成很多小视频下载，下载后的视频，我们还需要利用 FFmpeg 进行合并，接下来我们认识一下 FFmpeg。  
 
 FFmpeg 是领先的多媒体框架，能够解码、编码、转码、混合、解密、流媒体、过滤和播放人类和机器创造的几乎所有东西。它支持最晦涩的古老格式，直到最尖端的格式；无论它们是由某个标准委员会、社区还是公司设计的；它还具有高度的便携性。
 
