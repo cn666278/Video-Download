@@ -45,9 +45,11 @@ lux -v
 https://www.bilibili.com/video/BV1gK4y1u7UM?t=32.2
 
 ### 复制视频地址
-在视频上点击右键，然后点击 “ 复制视频地址 ”。
-
-用 annie 查看视频信息
+在视频上点击右键，然后点击 “ 复制视频地址 ”。  
+```
+建议：在下载文件夹打开cmd  
+```
+用 lux 查看视频信息
 在终端中输入下面的命令开始查看，地址就是上一步所复制的视频地址： 👇
 ```
 lux -i https://www.bilibili.com/video/BV1gK4y1u7UM?t=32.2
