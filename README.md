@@ -8,6 +8,7 @@ Video Download using Annie
 <img src="https://github.com/cn666278/Video-Download/blob/main/website1.png" width="80%">  
 <img src="https://github.com/cn666278/Video-Download/blob/main/website2.png" width="80%">  
 接下来让我们先从 annie 开始吧 💪  
+[Annie下载](https://blog.csdn.net/qq_41780295/article/details/119795152)  
 annie 只是负责下载视频，而且是把一个完整的视频分成很多小视频下载，下载后的视频，我们还需要利用 FFmpeg 进行合并，接下来我们认识一下 FFmpeg。  
 
 FFmpeg 是领先的多媒体框架，能够解码、编码、转码、混合、解密、流媒体、过滤和播放人类和机器创造的几乎所有东西。它支持最晦涩的古老格式，直到最尖端的格式；无论它们是由某个标准委员会、社区还是公司设计的；它还具有高度的便携性。
