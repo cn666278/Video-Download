@@ -25,23 +25,19 @@ ffmpeg -version
 ```
 出现 ffmpeg: /usr/bin/ffmpeg......，以及 ffmpeg version 4.2.4......，说明本实验环境已经内置了 ffmpeg，且无需配置环境变量。
 
-万事俱备只欠东风，有了 annie 和 FFmpeg，下一步就可以下载我们喜欢的视频 ~ 😬  
+万事俱备只欠东风，有了 lux 和 FFmpeg，下一步就可以下载我们喜欢的视频 ~ 😬  
 
 首先，配置 PATH 环境变量
 
 同学们可以利用你们之前所学习的 Linux 知识，把 annie 的路径配置到 PATH 中，我们这里只是临时设置设置 annie 到 PATH 中（当前终端有效，新打开的终端还需要重新设置）。
-
-输入下面的命令，设置临时环境变量：
-```
-export PATH=$PATH:/home/project
-```
+[lux 配置](https://blog.csdn.net/weixin_44427004/article/details/125765917)
 输入下面的命令，检测环境变量是否配置成功：
 ```
-annie -v
+lux -v
 ```
 如能出现： lux：version 字样，说明环境变量配置成功。
 
-配置 annie 到 PATH。然后，下载 B 站视频
+配置 lux 到 PATH。然后，下载 B 站视频
 
 按下面的步骤依次操作：
 
@@ -54,7 +50,7 @@ https://www.bilibili.com/video/BV1gK4y1u7UM?t=32.2
 用 annie 查看视频信息
 在终端中输入下面的命令开始查看，地址就是上一步所复制的视频地址： 👇
 ```
-annie -i https://www.bilibili.com/video/BV1gK4y1u7UM?t=32.2
+lux -i https://www.bilibili.com/video/BV1gK4y1u7UM?t=32.2
 ```
 
 视频信息如下图所示：
@@ -99,7 +95,7 @@ Site:      哔哩哔哩 bilibili.com
 ### 下载视频
 清晰度越高，文件越大，同学们根据自己的实际情况选择，本实验下载 1080P 的，输入下面的命令开始下载 1080P 的视频：
 ```
-annie -f 80-7 https://www.bilibili.com/video/BV1gK4y1u7UM?t=32.2
+lux -f 80-7 https://www.bilibili.com/video/BV1gK4y1u7UM?t=32.2
 ```
 
 
